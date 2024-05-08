@@ -1,0 +1,436 @@
+.bigPor{
+    width: 100%;
+    background-color: #030A25;
+    margin-top: 80px;
+    padding: 80px 0px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+    padding: 60px 80px;
+}
+.inner{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.before{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1{
+        text-align: center;
+        color: gray;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        color: gray;
+        font-size: 22px;
+    }
+}
+.after{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    h1{
+        color: gray;
+        font-size: 35px;
+    }
+    ul{
+        list-style: circle;
+        li{
+            font-weight: bold;
+            font-size: 20px;
+            color: gray;
+        }
+    }
+    button{
+        background-color: rgb(255, 255, 255, 0.1);
+        color: gray;
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+}
+.active{
+    display: flex;
+    animation: activeAnim 0.4s forwards;
+}
+@keyframes activeAnim {
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.inActive{
+    display: none;
+}
+.telegram{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.beforeTel{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1{
+        text-align: center;
+        color: gray;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        color: gray;
+        font-size: 22px;
+    }
+}
+.afterTel{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    h1{
+        color: gray;
+        font-size: 35px;
+    }
+    ul{
+        list-style: circle;
+        li{
+            font-weight: bold;
+            font-size: 20px;
+            color: gray;
+        }
+    }
+    button{
+        background-color: rgb(255, 255, 255, 0.1);
+        color: gray;
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+}
+.activeTel{
+    display: flex;
+    animation: activeAnimTel 0.4s forwards;
+}
+@keyframes activeAnimTel {
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.inActiveTel{
+    display: none;
+}
+.movie{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.beforeMov{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1{
+        text-align: center;
+        color: gray;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        color: gray;
+        font-size: 22px;
+    }
+}
+.afterMov{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    h1{
+        color: gray;
+        font-size: 35px;
+    }
+    ul{
+        list-style: circle;
+        li{
+            font-weight: bold;
+            font-size: 20px;
+            color: gray;
+        }
+    }
+    button{
+        background-color: rgb(255, 255, 255, 0.1);
+        color: gray;
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+}
+.activeMov{
+    display: flex;
+    animation: activeAnimMov 0.4s forwards;
+}
+@keyframes activeAnimMov {
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.inActiveMov{
+    display: none;
+}
+.volunteer{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.beforeVal{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1{
+        text-align: center;
+        color: gray;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        color: gray;
+        font-size: 22px;
+    }
+}
+.afterVal{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    h1{
+        color: gray;
+        font-size: 35px;
+    }
+    ul{
+        list-style: circle;
+        li{
+            font-weight: bold;
+            font-size: 20px;
+            color: gray;
+        }
+    }
+    button{
+        background-color: rgb(255, 255, 255, 0.1);
+        color: gray;
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+}
+.activeVal{
+    display: flex;
+    animation: activeAnimVal 0.4s forwards;
+}
+@keyframes activeAnimVal {
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.inActiveVal{
+    display: none;
+}
+.lab{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.beforeLab{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1{
+        text-align: center;
+        color: gray;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        color: gray;
+        font-size: 22px;
+    }
+}
+.afterLab{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    h1{
+        color: gray;
+        font-size: 35px;
+    }
+    ul{
+        list-style: circle;
+        li{
+            font-weight: bold;
+            font-size: 20px;
+            color: gray;
+        }
+    }
+    button{
+        background-color: rgb(255, 255, 255, 0.1);
+        color: gray;
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+}
+.activeLab{
+    display: flex;
+    animation: activeAnimLab 0.4s forwards;
+}
+@keyframes activeAnimLab {
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.inActiveLab{
+    display: none;
+}
+.count{
+    width: 400px;
+    height: 300px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.beforeCount{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    h1{
+        text-align: center;
+        color: gray;
+        font-weight: bold;
+    }
+    p{
+        text-align: center;
+        color: gray;
+        font-size: 22px;
+    }
+}
+.afterCount{
+    width: 100%;
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    h1{
+        color: gray;
+        font-size: 35px;
+    }
+    ul{
+        list-style: circle;
+        li{
+            font-weight: bold;
+            font-size: 20px;
+            color: gray;
+        }
+    }
+    button{
+        background-color: rgb(255, 255, 255, 0.1);
+        color: gray;
+        padding: 10px;
+        border: 2px solid gray;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+}
+.activeCount{
+    display: flex;
+    animation: activeAnimCount 0.4s forwards;
+}
+@keyframes activeAnimCount {
+    from{
+        opacity: 0;
+        transform: translateY(200px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.inActiveCount{
+    display: none;
+}
